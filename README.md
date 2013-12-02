@@ -6,11 +6,11 @@ Auto navigation system for a survey robot
 2. Get Home
 
 ## LOOP
-3. Get Next Destination Way Point (DWP) if NONE goto 10
-4. Check Current Location 
-5. Compare Current Location to Destination Way Point 
-6. Calculate the DWP Heading Degree
-7. Calculate the Distance to DWP
-8. Start/Continue Navigation for the Way Point
-9. If Current Location is within a 3m radius of DWP find next way point, and loop through 3.
-10. Go to HOME
+1. Get Next Destination Way Point (DWP) if NONE goto 8
+2. Check Current Location 
+3. Compare Current Location to Destination Way Point 
+4. Calculate the DWP Heading Degree
+5. Calculate the Distance to DWP
+6. Start/Continue Navigation for the Way Point
+7. If Current Location is within a 3m radius of DWP find next way point, and loop through 3.
+8. Go to HOME
